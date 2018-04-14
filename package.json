@@ -1,0 +1,25 @@
+{
+  "name": "screenshot-compare-testing",
+  "version": "0.0.1",
+  "description": "Example on how to automate screenshots taking from your website using puppeteer and then compare them with previous version using pixelmatch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "screenshot-testing",
+    "ui-testing",
+    "headless-browser",
+    "integration-testing",
+    "node.js"
+  ],
+  "author": "Slobodan Stanic",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "pixelmatch": "^4.0.2",
+    "puppeteer": "^1.3.0",
+    "streamifier": "^0.1.1"
+  }
+}
